@@ -1,0 +1,17 @@
+package com.sathya.springex;
+
+public class EmailService implements MessageService{
+
+	@Override
+	public void message() {
+		System.out.println("Email Service");
+		
+	}
+	
+	public EmailService() {
+		System.out.println("Email Service consructor :: Object created");
+	}
+	
+	
+
+}

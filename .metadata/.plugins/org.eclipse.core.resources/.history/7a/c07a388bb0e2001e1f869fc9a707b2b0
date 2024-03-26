@@ -1,0 +1,9 @@
+package com.sathya.springex;
+
+import org.springframework.stereotype.Component;
+
+public interface MessageService {
+	
+	public void message();
+	
+}

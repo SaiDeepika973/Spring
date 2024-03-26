@@ -1,0 +1,10 @@
+package com.sathya.springex;
+
+public class HomeLoanService {
+	
+	public void loanInfo()
+	{
+		System.out.println("This is Loan Information");
+	}
+
+}

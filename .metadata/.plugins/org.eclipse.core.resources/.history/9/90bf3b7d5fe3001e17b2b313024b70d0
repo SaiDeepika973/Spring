@@ -1,0 +1,15 @@
+package com.sathya.springex;
+
+public class Pharmacy {
+	
+	private String name;
+	private String location;
+	
+	//generating constructor
+	
+	public Pharmacy(String name, String location) {
+		super();
+		this.name = name;
+		this.location = location;
+	}
+}
